@@ -1,0 +1,417 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+:root {
+    /* dark shades of primary color */
+    --intro-background: hsl(217, 28%, 15%);
+    --main-background: hsl(218, 28%, 15%);
+    --footer-background: hsl(216, 53%, 9%);
+    --testimonials-background: hsl(219, 30%, 15%);
+    /* accent colors */
+    --call-to-action-cyan: hsl(176, 68%, 64%);
+    --call-to-action-blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    /* neutral */
+    --white: hsl(0, 0%, 100%);
+    --ff-headings: "Raleway", sans-serif;
+    --ff-body: "Open Sans", sans-serif;
+}
+h3,
+h4,
+h5{
+    font-family: var(--ff-body);
+}
+p{
+    font-family: var(--ff-body);
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+h3{
+    font-size: 34px;
+}
+h4{
+    font-size: 19px;
+}
+h5{
+    font-size: 14px;
+}
+@media screen and (max-width: 375px) {
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    
+}
+h3,
+h4,
+h5,
+p,
+a{
+    color: var(--white)
+}
+li{
+    list-style-type: none;
+}
+a{
+    font-family: var(--ff-headings);
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+@media screen and (max-width: 375px){
+    a{
+        line-height: 1.1rem;
+    }
+    p{
+        line-height: 1.3rem;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-background);
+}
+.nav-header{
+    display: flex;
+    padding: 5rem;
+}
+.logo{
+    height: 3.2rem;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: auto;
+}
+.nav-links a{
+    padding-left: 2rem;
+    padding-right: 1rem;
+    position: relative;
+    bottom: 110px;
+}
+.navbar a:hover{
+    color: var(--call-to-action-cyan);
+}
+main{
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-position: right top;
+    background-size: cover;
+}
+.intro-section{
+    background: var(--intro-background);
+    display: grid;
+    text-align: center;
+}
+.intro-container p{
+    padding-top: 0.5rem;
+}
+.intro-button{
+    width: 20%;
+    height: 2.1rem;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: var(--call-to-action-cyan);
+    background: var(--call-to-action-cyan);
+    color: var(--white);
+    margin-top: 0.6rem;
+}
+#features{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    padding: 5rem;
+}
+#features div{
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    margin-top: 2rem;
+}
+.stay-section{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    margin-top: 4rem;
+}
+#stay-content{
+    margin-top: 6rem;
+}
+#stay-content p{
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+#stay-content a{
+    color: var(--call-to-action-cyan);
+    font-size: 16px;
+}
+#stay-content a:hover{
+    color: var(--call-to-action-blue);
+}
+span img{
+    width: 17px;
+}
+.underline{
+    width: 10rem;
+    background-color: var(--call-to-action-cyan);
+    height: 0.15rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: 230px;
+}
+.team-quote{
+    position: relative;
+    left: 2rem;    
+}
+.team-section{
+    display: flex;
+    margin-top: 8rem;
+}
+#team-profile{
+    background: var(--intro-background);
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 10px 4px var(--main-background);
+}
+.profile{
+    width: 20%;
+    border-radius: 50%;
+}
+.sign-section{
+    background: var(--intro-background);
+    height: 35vh;
+    width: 100vh;
+    text-align: center;
+    margin-left: 20rem;
+    margin-top: 10rem;
+    border-radius: 8px;
+    box-shadow: 0px 10px 4px var(--main-background);
+}
+.sign-section h3{
+    padding-top: 2.8rem;
+}
+.sign-section p{
+    padding-top: 1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+.sign-form{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.sign-form input{
+    width: 60%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--white);
+    outline: none;
+}
+.sign-form button{
+    width: 30%;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--call-to-action-cyan);
+    background: var(--call-to-action-cyan);
+    color: var(--white);
+    transition-duration: 0.4s;
+}
+.sign-form button:hover{
+    font-weight: bold;
+}
+footer{
+    background: var(--footer-background);
+}
+footer ul a:hover{
+    font-weight: bold;
+}
+.footer-logo{
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+footer .contact-section{
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 10rem;
+}
+.contact-section div{
+    margin-right: 10rem;
+}
+.footer-nav-contact-links{
+    margin-left: 4rem;
+}
+.social-media-icons div{
+    background: var(--main-background);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--white);
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px;
+}
+#social-icons #facebook{
+    width: 10px;
+}
+@media screen and (max-width: 1440px){
+    .nav-header{
+        padding-top: 2.4rem;
+        padding-left: 1.5rem;
+    }
+    .logo{
+        height: 2rem;
+    }
+    .nav-links a{
+        padding-left: 0.5rem;
+        font-size: 14px;
+    }
+    main{
+        background-image: url('images/bg-curvy-desktop.svg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .intro-section{
+        padding-top: 0rem;
+    }
+    .img-container img{
+        width: 70%;
+    }
+    .intro-container h3{
+        padding: 0.3rem 2rem;
+    }
+    .intro-container p{
+        padding: 0.7rem 1rem;
+    }
+    .intro-button{
+        width: 50%;
+        height: 2.3rem;
+    }
+    #features{
+        display: initial;
+    }
+    #features div{
+        padding-top: 2rem;
+    }
+    .stay-section{
+        display: initial;
+    }
+    #stay-img img{
+        width: 100%;
+        padding-top: 5rem;
+        padding-left: 2rem;
+    }
+    #stay-content{
+        padding-left: 4rem;
+    }
+    .underline{
+        right: 75px;
+    }
+    .team-quote{
+        width: 20px;
+        margin-top: 4rem;;
+    }
+    .team-section{
+        display: initial;
+    }
+    .sign-section{
+        width: 80vw;
+        height: 50vh;
+        margin-left: 2.5rem;
+    }
+    .sign-section h3{
+        padding-top: 2.1rem;
+    }
+    .sign-section p{
+        padding-right: 2rem;
+    }
+    .sign-form{
+        display: grid;
+    }
+    .sign-form input{
+        width: 68vw;
+        margin-top: 1.5rem;
+        height: 6.5vh;
+        padding-left: 2rem;
+    }
+    .sign-form button{
+        margin-top: 1rem;
+        width: 68vw;
+        height: 6.5vh;
+    }
+    .footer-logo{
+        padding-left: 2rem;
+    }
+    footer .contact-section{
+        display: initial;
+    }
+    .footer-nav-location{
+        padding-top: 2rem;
+    }
+    .footer-nav-location img{
+        padding-left: 2rem;
+    }
+    .footer-nav-location p{
+        padding-left: 5rem;
+        position: relative;
+        bottom: 1.8rem;
+    }
+    .footer-nav-phone img{
+        padding-left: 2rem;
+    }
+    .footer-nav-phone p{
+        padding-left: 5rem;
+        position: relative;
+        bottom: 1.8rem;
+    }
+    .footer-nav-links{
+        padding-left: 2rem;
+    }
+    .footer-nav-links li{
+        margin-top: 1rem;
+    }
+    .footer-nav-contact-links{
+        padding-top: 5rem;
+        margin-left: 2rem;
+    }
+    .footer-nav-contact-links li{
+        margin-top: 1rem;
+    }
+    .social-media-icons{
+        padding-left: 5rem;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
