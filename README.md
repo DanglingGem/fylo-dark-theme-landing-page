@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DanglingGem/fylo-dark-theme-landing-page.git)
-- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/index.html)
+- Solution URL: [Solution URL here](https://github.com/DanglingGem/fylo-dark-theme-landing-page.git)
+- Live Site URL: [Live site URL here](http://127.0.0.1:5500/index.html)
 
 ### Built with
 
