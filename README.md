@@ -76,8 +76,7 @@ I learnt how to make use of a style guide, as provide.
 
 
 ## Author
-
-- 
+ 
 - Frontend Mentor - [@danglinggem](https://www.frontendmentor.io/profile/danglinggem)
 - Twitter - [@danglinggem](https://www.twitter.com/dangglinggem)
 
