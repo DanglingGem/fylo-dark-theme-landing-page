@@ -1,8 +1,17 @@
-/* FONTS */
+/* 
+===================
+FONTS
+===================
+*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+/*
+===================
+VARIABLES
+===================
+*/
 
 :root {
     /* dark shades of primary color */
@@ -19,6 +28,19 @@
     --ff-headings: "Raleway", sans-serif;
     --ff-body: "Open Sans", sans-serif;
 }
+/*
+===========================
+GLOBAL STYLES
+===========================
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--main-background);
+}
 h1,
 h2,
 h5{
@@ -29,7 +51,6 @@ p{
     font-size: 14px;
     line-height: 1.5rem;
     opacity: 80%;
-   /* margin: 0 1rem;*/
 }
 h1{
     font-size: 30px;
@@ -40,7 +61,7 @@ h2{
 h5{
     font-size: 14px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 882px) {
     h1{
         font-size: 22px;
     }
@@ -68,45 +89,38 @@ a{
     font-weight: 400;
     line-height: 1.5rem;
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 882px){
     a{
         line-height: 1.1rem;
     }
     p{
         line-height: 1.3rem;
     }
+}    
+.nav-header{
+    display: flex;
+    padding: 5rem;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.logo{
+    height: 3.2rem;
+}
+    
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: auto;
+}
+.nav-links a{
+padding-left: 2rem;
+padding-right: 2rem;
+position: relative;
+bottom: 110px;
+}
+.navbar a:hover{
+color: var(--call-to-action-cyan);
 }
 @media screen and (max-width: 1440px){
-    body{
-        background-color: var(--main-background);
-    }
-    .nav-header{
-        display: flex;
-        padding: 5rem;
-    }
-    .logo{
-        height: 3.2rem;
-    }
-    .nav-links{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        height: auto;
-    }
-    .nav-links a{
-        padding-left: 2rem;
-        padding-right: 2rem;
-        position: relative;
-        bottom: 110px;
-    }
-    .navbar a:hover{
-        color: var(--call-to-action-cyan);
-    }
     main{
         background-image: url('images/bg-curvy-desktop.svg');
         background-position: right top;
@@ -117,12 +131,16 @@ a{
         display: grid;
         text-align: center;
     }
-    .intro-section h1{
-        margin: 3rem 6rem 1rem 2rem;
-        
+    .intro-container h1{
+        padding-left: 25rem;
+        padding-right: 25rem;
+        margin-top: 2rem;
     }
     .intro-container p{
-        padding-top: 0.5rem;
+        padding-top: 1rem;
+        text-align: center;
+        padding-left: 25rem;
+        padding-right: 25rem;
     }
     .intro-button{
         width: 20%;
@@ -132,7 +150,7 @@ a{
         border-color: var(--call-to-action-cyan);
         background: var(--call-to-action-cyan);
         color: var(--white);
-        margin-top: 0.6rem;
+        margin-top: 2rem;
     }
     #features{
         display: grid;
@@ -143,7 +161,12 @@ a{
     #features div{
         padding-left: 2.8rem;
         padding-right: 2.8rem;
-        margin-top: 2rem;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+    }
+    #features img,
+    #features h2{
+        padding-bottom: 1rem;
     }
     .stay-section{
         display: flex;
@@ -153,6 +176,9 @@ a{
     }
     #stay-content{
         margin-top: 6rem;
+    }
+    #stay-content h2{
+        margin-bottom: 1rem;
     }
     #stay-content p{
         padding-top: 1rem;
@@ -183,7 +209,7 @@ a{
     }
     .team-section{
         display: flex;
-        margin-top: 8rem;
+        margin-top: 15rem;
     }
     #team-profile{
         background: var(--intro-background);
@@ -204,7 +230,9 @@ a{
         margin-left: 20rem;
         margin-top: 10rem;
         border-radius: 8px;
-        box-shadow: 0px 10px 4px var(--main-background);
+        box-shadow: 2px 6px 3px hsl(215, 54%, 7%);
+        position: relative;
+        top: 7rem;
     }
     .sign-section h2{
         padding-top: 2.8rem;
@@ -242,6 +270,7 @@ a{
     }
     footer{
         background: var(--footer-background);
+        padding-top: 8rem;
     }
     footer ul a:hover{
         font-weight: bold;
@@ -282,7 +311,7 @@ a{
         top: 4px;
     }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 882px){
     .nav-header{
         padding-top: 2.4rem;
         padding-left: 1.5rem;
@@ -409,22 +438,5 @@ a{
         padding-left: 5rem;
     }
     
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
