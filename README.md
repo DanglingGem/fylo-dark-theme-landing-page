@@ -36,10 +36,12 @@ Users should be able to:
 
 
 
+
+
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/DanglingGem/fylo-dark-theme-landing-page.git)
-- Live Site URL: [Live site URL here](http://127.0.0.1:5500/index.html)
+- Live Site URL: [Live site URL here](https://danglinggem.github.io/fylo-dark-theme-landing-page/)
 
 ### Built with
 
