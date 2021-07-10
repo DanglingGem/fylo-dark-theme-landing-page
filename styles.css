@@ -296,15 +296,15 @@ color: var(--call-to-action-cyan);
         margin-left: 10rem;
         display: flex;
     }
-    .icons{
+    .iconify{
         color:hsl(0, 0%, 100%);
         font-size: 3rem;
     }
-    #icon-twitter{
+    #iconify-twitter{
         position: relative;
         right: 10rem;
     }
-    #icon-instagram{
+    #iconify-instagram{
         position: relative;
         right: 20rem;
         font-size: 2.5rem;
