@@ -449,6 +449,7 @@ color: var(--call-to-action-cyan);
         width: 20vh;
     }
     .social-media-icons{
+        margin-left: 2rem;
         padding-left: 0rem;
     }
 
