@@ -296,15 +296,15 @@ color: var(--call-to-action-cyan);
         margin-left: 10rem;
         display: flex;
     }
-    .iconify{
+    .icons{
         color:hsl(0, 0%, 100%);
         font-size: 3rem;
     }
-    #iconify-twitter{
+    #icon-twitter{
         position: relative;
         right: 10rem;
     }
-    #iconify-instagram{
+    #icon-instagram{
         position: relative;
         right: 20rem;
         font-size: 2.5rem;
@@ -324,7 +324,7 @@ color: var(--call-to-action-cyan);
         font-size: 14px;
     }
     main{
-        background-image: url('images/bg-curvy-desktop.svg');
+        background-image: url('images/bg-curvy-mobile.svg');
         background-position: center center;
         background-size: cover;
     }
@@ -440,7 +440,7 @@ color: var(--call-to-action-cyan);
     }
     
 }
-@media screen and (max-width: 375px){
+@media only screen and (max-width: 375px){
     .nav-links a{
         padding-left: 0rem;
         padding-right: 1rem;
