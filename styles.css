@@ -448,6 +448,9 @@ color: var(--call-to-action-cyan);
     .footer-logo img{
         width: 20vh;
     }
+    .social-media-icons{
+        padding-left: 0.2rem;
+    }
 
 }
 
