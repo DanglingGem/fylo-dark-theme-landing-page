@@ -320,7 +320,7 @@ color: var(--call-to-action-cyan);
         height: 2rem;
     }
     .nav-links a{
-        padding-left: 0.5rem;
+        padding-left: 0.8rem;
         font-size: 14px;
     }
     main{
@@ -397,13 +397,14 @@ color: var(--call-to-action-cyan);
         height: 6.5vh;
     }
     .footer-logo{
+        height: 2rem;
         padding-left: 2rem;
     }
     footer .contact-section{
         display: initial;
     }
     .footer-nav-location{
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
     .footer-nav-location img{
         padding-left: 2rem;
@@ -438,5 +439,15 @@ color: var(--call-to-action-cyan);
         padding-left: 5rem;
     }
     
+}
+@media screen and (max-width: 375px){
+    .nav-links a{
+        padding-left: 0rem;
+        padding-right: 1rem;
+    }
+    .footer-logo img{
+        width: 20vh;
+    }
+
 }
 
