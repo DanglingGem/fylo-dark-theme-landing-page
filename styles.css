@@ -300,20 +300,19 @@ color: var(--call-to-action-cyan);
     }
 
     /* footer logo and location styles*/
-    .footer-nav-location{
-        display: flex;
-        align-items: flex-start;
-        padding-top: 1rem;
-        
-    }
-    .footer-nav-location img{
+    .footer-nav-location img{ /* location logo Div */
         height: 18px;
         width: 13px;
     }
-    .footer-nav-location p{
+    .footer-nav-location p{ /* location paragraph Div */
         width: 30%;
         padding-left: 2rem;
         
+    }
+    .footer-nav-location{ /* Parent Div */
+        display: flex;
+        align-items: flex-start;
+        padding-top: 1rem; 
     }
 
     /* footer phone and email */
@@ -321,24 +320,24 @@ color: var(--call-to-action-cyan);
     .footer-nav-email{
         display: flex;
         align-items: flex-end;
-        padding-top: 1rem;
         padding-right: 2rem;
     }
     .footer-nav-phone p,
     .footer-nav-email p{
-        padding-left: 2rem;
+        padding-left: 1rem;
     }
 
     /* footer nav links */
-    .footer-links li{
+    .footer-links li{           /* list spacing */
         padding-bottom: 1rem;
     }
-    .footer-nav-links{
-        padding-top: 2rem;
+    .footer-nav-links{          /* Div Spacing */
+        padding-right: 2rem;
     }
-    .footer-links{
+
+    .footer-links{              /* Parent Div */
         display: flex;
-        
+        margin-right: 5rem;
     }
 
     /* social media icons */
@@ -354,16 +353,20 @@ color: var(--call-to-action-cyan);
     /* footer nav display */
     .footer-nav{
         display: flex;
-        align-items: flex-start;
+        flex-direction: row;
+        justify-content: center;
+
+
         margin-right: 5rem;
         margin-left: 5rem;
         padding-top: 5rem;
+        
     }
 
     
 
 
-    
+ /* Media Query */    
 }
 @media only screen and (max-width: 882px){
     .nav-header{
