@@ -126,12 +126,17 @@ bottom: 110px;
 .navbar a:hover{
 color: var(--call-to-action-cyan);
 }
+
+/* Media Query for Laptop Device */
+
 @media only screen and (max-width: 1440px){
     main{
         background-image: url('images/bg-curvy-desktop.svg');
         background-position: right top;
         background-size: cover;
     }
+
+    /* Intoduction */
     .intro-section{
         background: var(--intro-background);
         display: grid;
@@ -159,6 +164,9 @@ color: var(--call-to-action-cyan);
         margin-top: 2rem;
         cursor: pointer;
     }
+
+    /* Features */
+
     #features{
         display: grid;
         grid-template-columns: auto auto;
@@ -179,6 +187,8 @@ color: var(--call-to-action-cyan);
         padding-left: 5rem;
         padding-right: 5rem;
     }
+
+    /* Stay Section */
     .stay-section{
         display: flex;
         padding-left: 2rem;
@@ -215,6 +225,9 @@ color: var(--call-to-action-cyan);
         position: relative;
         right: 200px;
     }
+
+    /* Team Section */
+
     .team-quote{
         position: absolute;
         left: 2rem;    
@@ -232,7 +245,7 @@ color: var(--call-to-action-cyan);
         padding-top: 3rem;
         padding-right: 2rem;
         padding-left: 2rem;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         border-radius: 8px;
         box-shadow: 0px 10px 4px var(--main-background);
     }
@@ -240,9 +253,24 @@ color: var(--call-to-action-cyan);
         display: flex;
     }
     .profile{
-        width: 15%;
+        width: 10%;
         border-radius: 50%;
     }
+    .profile-img{
+        display: flex;
+    }
+    .profile-text{
+        padding-left: 0.5rem;
+    }
+    .profile-text h5{
+        font-style: 700;
+    }
+    .profile-text small{
+        opacity: 0.6;
+    }
+
+    /*Sign Section */
+
     .sign-section{
         background: var(--intro-background);
         height: 35vh;
@@ -305,7 +333,7 @@ color: var(--call-to-action-cyan);
         width: 13px;
     }
     .footer-nav-location p{ /* location paragraph Div */
-        width: 30%;
+        width: 50%;
         padding-left: 2rem;
         
     }
@@ -314,6 +342,7 @@ color: var(--call-to-action-cyan);
         align-items: flex-start;
         padding-top: 1rem; 
     }
+    
 
     /* footer phone and email */
     .footer-nav-phone,
@@ -326,6 +355,11 @@ color: var(--call-to-action-cyan);
     .footer-nav-email p{
         padding-left: 1rem;
     }
+    .contact-section{
+        padding-top: 4rem;
+        position: relative;
+        right: 15rem;
+    }
 
     /* footer nav links */
     .footer-links li{           /* list spacing */
@@ -333,21 +367,32 @@ color: var(--call-to-action-cyan);
     }
     .footer-nav-links{          /* Div Spacing */
         padding-right: 2rem;
+        position: relative;
+        right: 10rem;
     }
 
     .footer-links{              /* Parent Div */
         display: flex;
         margin-right: 5rem;
+        padding-top: 4rem;
+        width: 25%;
+    }
+    .footer-nav-contact-links{
+        position: relative;
+        right: 5rem;
     }
 
     /* social media icons */
     .social-media-icons{
         display: flex;
+        padding-top: 4rem;
+        position: relative;
+        right: 4rem
     }
     .social-media-icons i{
         color: var(--white);
         font-size: 1rem;
-        padding-right: 0.5rem;
+        padding-right: 0.8rem;
     }
 
     /* footer nav display */
@@ -360,13 +405,14 @@ color: var(--call-to-action-cyan);
         margin-right: 5rem;
         margin-left: 5rem;
         padding-top: 5rem;
+        padding-bottom: 8rem;
         
     }
 
     
 
 
- /* Media Query */    
+ /* Media Query for Tab Devices */    
 }
 @media only screen and (max-width: 882px){
     .nav-header{
