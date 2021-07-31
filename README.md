@@ -30,9 +30,8 @@ Users should be able to:
 
 ### Screenshot
 
-- I am finding it very hard to take the sreenshot of my challenge. The chrome extension for screenshot is affecting the look of my webpage.
+- [fylo pic](https://user-images.githubusercontent.com/81005874/127730993-d2d0cbab-1a51-4d10-99a7-bdf1bb43dbf3.PNG)
 
-- I dont know how to make Firefox my default browser.
 
 
 
