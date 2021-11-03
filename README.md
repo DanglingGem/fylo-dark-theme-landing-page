@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-- [fylo pic](https://user-images.githubusercontent.com/81005874/127730993-d2d0cbab-1a51-4d10-99a7-bdf1bb43dbf3.PNG)
+- ![fylo screenshot](./images/fylo-dark-theme.png)
 
 
 
@@ -48,7 +48,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
+
 
 ### What I learned
 
@@ -78,10 +78,10 @@ I learnt how to make use of a style guide, as provide.
 
 ## Author
  
-- Frontend Mentor - [@danglinggem](https://www.frontendmentor.io/profile/danglinggem)
+- Frontend Mentor - [@danglinggem](https://www.frontendmentor.io/profile/DanglingGem)
 - Twitter - [@danglinggem](https://www.twitter.com/dangglinggem)
 
 
 ## Acknowledgments
 
-I would like to acknowledge the impact of Sidehustle Internship for supply of amazing resources that helped me.
+I would like to acknowledge the impact of Frontendmentor.io for supply of amazing resources that helped me.
